@@ -27,3 +27,11 @@ console.log(array)
 //Removing item from the beginning of the array 
 array.shift()
 console.log(array)
+
+//join() Demostrating the array as a whole string
+console.log("join: " + array.join())
+
+//concat() Merging two arrays
+let array2 = ["antalya" , "izmir" , "istanbul"]
+console.log(array2.concat(array))
+
